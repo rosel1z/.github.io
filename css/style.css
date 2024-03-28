@@ -428,4 +428,8 @@ a {
     color: white;
     margin-left: 215px;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+@font-face {
+  font-family: "Involve";
+  src: url("../font/Involve-Regular.ttf") format("truetype");
+}/*# sourceMappingURL=style.css.map *//*# sourceMappingURL=style.css.map */
