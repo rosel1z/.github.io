@@ -1,0 +1,15 @@
+.footer_text {
+  color: white;
+  font: 100% Involve;
+  display: flex;
+  background: black;
+  padding: 60px;
+  margin-top: 131px;
+  justify-content: space-between;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1370px) {
+  .footer_text {
+    width: 107%;
+  }
+}/*# sourceMappingURL=footer.css.map */

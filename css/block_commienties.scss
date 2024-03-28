@@ -1,0 +1,45 @@
+$font-stack: Involve;
+
+%dis-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+%text-three {
+  font-weight: lighter;
+  font-family: Involve;
+  font-size: 17px;
+}
+
+.three_main {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .text_three {
+    font-weight: bold;
+    font: 100% $font-stack;
+    font-size: 50px;
+    margin: 0px;
+  }
+  
+  .block_four, .block_four_one  {
+    @extend %dis-wrap;
+    margin: 50px;
+  }
+
+  .procent {
+    font-weight: bold;
+    font: 100% $font-stack;
+    font-size: 30px;
+  }
+  
+  .text_three_more, .text_procent {
+    @extend %text-three
+  }
+  
+  .commitments {
+    @extend %dis-wrap;
+    align-content: center;
+  }
+  

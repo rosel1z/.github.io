@@ -1,0 +1,26 @@
+.photo_two, .photo_one {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.two_text {
+  font-weight: lighter;
+  font: 100% Involve;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.two_main {
+  background: #FAFAFA;
+}
+
+.photo_one {
+  margin-top: 20px;
+}
+
+.photo_two {
+  margin-top: 40px;
+  padding: 30px;
+}/*# sourceMappingURL=block_companies.css.map */

@@ -1,0 +1,75 @@
+.six_block {
+  padding-top: 60px;
+}
+
+.text_for_six {
+  font: 100% Involve;
+  font-size: 50px;
+  font-weight: bolder;
+  line-height: 86px;
+}
+
+.six_left {
+  background: rgb(248, 249, 255);
+  border-radius: 50%;
+  border: none;
+}
+
+.six_right {
+  background: rgb(52, 97, 255);
+  border-radius: 50%;
+  border: none;
+}
+
+.six_text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.block_grey {
+  background: rgb(217, 211, 211);
+  border-radius: 20px;
+  width: 480px;
+  height: 240px;
+}
+
+.name_for_block_grey {
+  font: 100% Involve;
+  font-weight: bolder;
+}
+
+.grey_bio {
+  display: flex;
+  margin-left: 20px;
+  padding-top: 19px;
+}
+
+.bio {
+  height: 80px;
+  width: 80px;
+}
+
+.job_for_block_grey {
+  font: 100% Involve;
+}
+
+.blue_block {
+  color: white;
+}
+
+.grey_text {
+  font: 100% Involve;
+  margin-left: 20px;
+}
+
+.bio_name_job {
+  margin-left: 20px;
+}
+
+.blue_block {
+  background: rgb(52, 97, 255);
+  border-radius: 20px;
+  width: 480px;
+  height: 240px;
+}/*# sourceMappingURL=block_bio.css.map */

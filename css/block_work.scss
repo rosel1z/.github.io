@@ -1,0 +1,154 @@
+$font-stack: Involve;
+$primary-color:rgb(52, 97, 255); 
+
+%fontlighter {
+    font-weight: lighter;
+    font: 100% $font-stack;
+}
+
+.text_four {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+  }
+  
+  .textsfourbold {
+    font-weight: bold;
+    font: 100% $font-stack;
+    font-size: 40px;
+    margin: auto;
+  }
+  
+  .textsfour {
+    font-size: 17px;
+    @extend %fontlighter;
+  }
+  
+  .photos_texts {
+    @extend %fontlighter;
+    font-size: 20px;
+  }
+  
+  .block_photos {
+    text-align: center;
+  }
+  
+  .photos_three {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+  }
+  
+  .photos_three img {
+      width: 350px;
+      height: 290px;
+  }
+  
+  .but_three {
+    border-radius: 70px;
+    background: rgb(52, 97, 255);
+    border: white;
+    width: 140px;
+    height: 50px;
+    color: white;
+  }
+  
+  .but_th {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+
+  .bl_five {
+    margin-left: 54px;
+    display: flex;
+    margin-top: -290px;
+    color: white;
+  }
+  
+  .cta_banner {
+    font-weight: bold;
+    font: 100% $font-stack;
+    font-size: 40px;
+    
+  }
+.banner1 {
+    height: 360px;
+    width: 1180px;
+}
+  
+  .cta_banner_long {
+    @extend %fontlighter;
+    font-size: 30px;
+    
+  }
+  .banner_btn {  
+    border-radius: 70px;
+    background: rgb(255 255 255);
+    border: white;
+    width: 140px;
+    height: 50px;
+    color: black;
+  }  
+
+  @media only screen and (min-width: 600px) and (max-width: 1370px) {
+    .photos_three {
+      display: flex;
+      align-content: center;
+      justify-content: space-around;
+    }
+
+    .banner1 {
+      height: 360px;
+      width: 1610px;
+  }
+    
+    }
+
+
+    @media only screen and (min-width: 1441px) and (max-width: 2560px) {
+  
+      .photos_three {
+        display: flex;
+        align-content: center;
+        justify-content: space-around;
+      }
+
+      .banner1{
+        height: 470px;
+        width: 2060px;
+      }
+
+      .cta_banner {
+        font-weight: bold;
+        font: 100% Involve;
+        font-size: 58px;
+    }
+
+    .cta_banner_long {
+      font-size: 45px;
+  }
+
+  .bl_five {
+    margin-left: 54px;
+    display: flex;
+    margin-top: -370px;
+    color: white;
+    justify-content: space-around;
+}
+
+.banner_btn {
+  border-radius: 70px;
+  background: rgb(255, 255, 255);
+  border: white;
+  width: 240px;
+  height: 100px;
+  color: black;
+  }
+
+}
+
+
+
+  
